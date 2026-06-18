@@ -5,8 +5,8 @@ category: Announcements
 layout: post
 published_datetime: 2026-06-05 16:00:00
 cover:
-    url: /assets/img/blog/dcus-banner.jpg
-    alt: "Attendees sitting under DjangoCon US Banner"
+    url: /assets/img/blog/workshop-sponsor.jpg
+    alt: "Attendees sitting at a code demonstration"
 title: "Workshop Sponsorships Now Open for DjangoCon US 2026"
 ---
 
