@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Marketing Team
 category: General
-published_datetime: 2026-06-16 06:00:00
+published_datetime: 2026-06-19 06:00:00
 cover:
     url: /assets/img/blog/marlene-day-3-keynote.jpg
     alt: "Djangocon US 2026 Code of Conduct"
