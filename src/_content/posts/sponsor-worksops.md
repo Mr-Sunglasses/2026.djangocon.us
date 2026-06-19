@@ -12,35 +12,37 @@ title: "Workshop Sponsorships Now Open for DjangoCon US 2026"
 
 # Workshop Sponsorships Now Open for DjangoCon US 2026
 
-Some of the most valuable learning at DjangoCon US happens outside the traditional conference talk format.
+Workshop sponsorship at DjangoCon US is an opportunity to bring a hands-on tutorial or training session you have already built to an audience that is ready to go deep.
 
-Workshops give attendees the opportunity to spend several hours diving deeply into a topic, learning directly from experienced instructors, asking questions, and gaining practical skills they can immediately apply to their own projects.
-
-Whether attendees are exploring Django for the first time or refining advanced deployment, security, testing, accessibility, or scaling practices, workshops provide a unique hands-on learning experience that is difficult to replicate elsewhere.
+If your team has a strong internal workshop, onboarding flow, product tutorial, or technical training session, DjangoCon US gives you the room, the audience, and the schedule. You bring the workshop.
 
 ## Why sponsor a workshop?
 
-Workshops remain one of the most impactful parts of the DjangoCon US experience.
+Workshops are one of the most valuable formats at DjangoCon US because they attract people who have already chosen depth over breadth.
 
-Unlike traditional conference sessions, workshops allow attendees to engage directly with instructors, work through examples in real time, and leave with practical knowledge they can use immediately.
+The audience self-selects for depth. Someone who picks a workshop instead of a talk has already decided they want to invest time in learning a topic well.
 
-Supporting workshops is one of the most direct ways organizations can invest in the Django community and support developer education.
+It is a working session, not a pitch room. Developers are quick to tune out sales theater, but they respond to useful instruction and practical examples.
 
-Workshop sponsorship helps us:
+The room is practitioner-heavy. DjangoCon US draws the people who write tickets, evaluate tools, and influence purchasing decisions.
 
-- Keep conference tickets accessible
-- Support high-quality educational programming
-- Bring expert instructors to the conference
-- Create dedicated spaces for hands-on learning
-- Expand opportunities for attendees at every experience level
+The experience is sticky. A 90-minute workshop creates a working mental model that a talk or logo placement usually cannot match.
 
-For organizations looking to make a meaningful contribution to the Django ecosystem, workshop sponsorship offers a direct and visible way to support the community.
+For companies, workshop sponsorship is a business investment as well as a community contribution. It helps you:
+
+- Put your engineers in front of an audience that is already engaged
+- Earn goodwill through useful teaching instead of promotional noise
+- Reach practitioners who influence technical decisions
+- Turn an internal tutorial into visible brand trust
+- Create durable awareness through hands-on experience
+
+If you already have a workshop worth sharing, DjangoCon US can help you present it to the right room.
 
 ## Applications are open through July 28
 
 We are currently accepting workshop sponsorship applications for DjangoCon US 2026.
 
-If your organization is interested in supporting hands-on learning and helping make workshops possible, we encourage you to reach out and learn more about available sponsorship opportunities.
+If your organization is interested in bringing a workshop to DjangoCon US, contact [sponsors@djangocon.us](mailto:sponsors@djangocon.us) to get started.
 
 **Workshop sponsorship applications close July 28, 2026.**
 
