@@ -8,5 +8,5 @@ logo:
 hiring_url: false
 url:
     target: 'https://defna.org/'
-    label: defna.com
+    label: defna.org
 ---
