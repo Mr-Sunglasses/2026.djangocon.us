@@ -23,16 +23,16 @@ There are coffee and tea in the conference center as well, so if you're a coffee
 ## 👕 Comfortable Clothes
 Everyone is welcome, and dress casually and comfortably, whether that's shorts, pants, a dress, or whatever makes you feel good. It’s up to you to decide what you would like to wear. As long as it isn’t a Code of Conduct violation, it’s pretty much up to you.
 
-Some of the rooms can get a bit chilly, so you might want to have a jacket or sweater handy, but don't forget the weather outside! September in Chicago is often delightful, with warm days and comfortable evenings. Average daily highs are around 78°F (26°C) and lows around 61°F (16°C). However, temperatures can fluctuate, and a cool breeze off Lake Michigan is always possible, so layers are key!
+Some of the rooms can get a bit chilly, so you might want to have a jacket or sweater handy, but don't forget the weather outside! August in Chicago is often delightful, with warm days and comfortable evenings. Average daily highs are around 78°F (26°C) and lows around 61°F (16°C). However, temperatures can fluctuate, and a cool breeze off Lake Michigan is always possible, so layers are key!
 
 ## 📱 Cell Phone
 It’s practically essential for survival in America. The mobile coverage is great in the venue area for all three major providers, so about any device will work.
 
 ## 🕶️ Sunglasses, Sunscreen, and Maybe a Raincoat
-September in Chicago generally brings pleasant weather, but it's still smart to be prepared. Sunny days are common, so  sunglasses and sunscreen are a good idea, especially if you plan to enjoy outdoor activities. While it's typically a relatively dry month, rain showers can occur, so a light raincoat or umbrella could be useful just in case. For a more accurate forecast closer to the conference date, check a reliable weather source like weather.com or your preferred weather app for Chicago.
+August in Chicago generally brings pleasant weather, but it's still smart to be prepared. Sunny days are common, so  sunglasses and sunscreen are a good idea, especially if you plan to enjoy outdoor activities. While it's typically a relatively dry month, rain showers can occur, so a light raincoat or umbrella could be useful just in case. For a more accurate forecast closer to the conference date, check a reliable weather source like weather.com or your preferred weather app for Chicago.
 
 ## 🍿 Snacks
 The voco Chicago Downtown will have full breakfast, lunch, and snacks during the breaks (10:10 AM and 3:00 PM) on all conference days (Monday through Wednesday). If you’re an early riser like me, you might want a snack before breakfast (7:30 AM on Monday, 8:00 AM Tuesday and Wednesday). Also, if you have special dietary needs, it can’t hurt to have a spare snack on hand just in case.
 
 ## 🎽 Exercise Clothes
-Before or after a long day of conference talks, I like to at least get a brief workout in. Chicago offers fantastic opportunities to get out and explore the city! September is an ideal time to enjoy walks or runs along the Chicago Riverwalk, through Millennium Park, or along the scenic Lakefront Trail. You might also find outdoor events or festivals happening in the city during this time. Go for a run, walk, or even a bike ride!
+Before or after a long day of conference talks, I like to at least get a brief workout in. Chicago offers fantastic opportunities to get out and explore the city! August is an ideal time to enjoy walks or runs along the Chicago Riverwalk, through Millennium Park, or along the scenic Lakefront Trail. You might also find outdoor events or festivals happening in the city during this time. Go for a run, walk, or even a bike ride!
