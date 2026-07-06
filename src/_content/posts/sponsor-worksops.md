@@ -3,7 +3,7 @@ author: DjangoCon US Marketing Team
 hidden: false
 category: Announcements
 layout: post
-published_datetime: 2026-06-05 16:00:00
+published_datetime: 2026-07-06 16:00:00
 cover:
     url: /assets/img/blog/workshop-sponsor.jpg
     alt: "Attendees sitting at a code demonstration"
