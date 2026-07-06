@@ -36,3 +36,9 @@ The voco Chicago Downtown will have full breakfast, lunch, and snacks during the
 
 ## 🎽 Exercise Clothes
 Before or after a long day of conference talks, I like to at least get a brief workout in. Chicago offers fantastic opportunities to get out and explore the city! August is an ideal time to enjoy walks or runs along the Chicago Riverwalk, through Millennium Park, or along the scenic Lakefront Trail. You might also find outdoor events or festivals happening in the city during this time. Go for a run, walk, or even a bike ride!
+
+## 📖 Looking for More Chicago Inspiration?
+
+Want to hear about Chicago from someone who's experienced DjangoCon US firsthand? Benedict Kofi Amofah shares his reflections on attending and helping organize DjangoCon US 2025, along with his favorite places to explore around the city.
+
+👉 Read: [The Windy City Welcome: DjangoCon US 2025 in Chicago](https://iamdreamo.medium.com/the-windy-city-welcome-djangocon-us-2025-in-chicago-8ff0823ea684)
