@@ -2,7 +2,7 @@
 author: DjangoCon US Marketing Team
 hidden: false
 category: General
-published_datetime: 2026-07-10 16:00:00
+published_datetime: 2026-07-11 16:00:00
 featured: true
 layout: post
 cover:
