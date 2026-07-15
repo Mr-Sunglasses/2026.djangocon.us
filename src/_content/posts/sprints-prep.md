@@ -42,7 +42,7 @@ Getting involved with community discussions ahead of time will also give you ple
 
 ## Set Up Your Development Environment Early
 
-One of the biggest time sinks during sprints is getting a project running for the first time. Rather than spending your first hour troubleshooting missing dependencies or waiting for packages to install, try setting up your development environment before you arrive at the conference.
+One of the biggest time sinks during sprints is getting a project running for the first time. Rather than spending your first hour troubleshooting missing dependencies or waiting for packages to install, **try setting up your development environment before you arrive at the conference**.
 
 Most projects have setup instructions in their documentation, so clone the repository, follow the installation steps, and make sure you can run the project locally. If you run into issues, don't panic; that's completely normal! You can ask questions in the project's communication channels before the conference or save them for the sprint itself. Having a head start means you'll be able to spend more time learning from maintainers, collaborating with other contributors, and making meaningful contributions instead of waiting for your environment to cooperate.
 
