@@ -34,7 +34,7 @@ You can also apply a similar outside-the-box approach if you're specifically loo
 
 ## Look Up the Projects Before the Conference
 
-The list of projects that will be present at sprints will be shared on the DjangoCon US website and social media channels before the conference. Checking out the various projects and learning more about them is great (although not mandatory) pre-sprint preparation.
+Some projects that will be present at sprints will be listed on the DjangoCon US website and social media channels before the conference. Checking out the various projects and learning more about them is great (although not mandatory) pre-sprint preparation.
 
 Future you will probably thank you for identifying a project that aligns with your interests and skills before the conference and avoiding the mental load of decision paralysis on the morning of sprints. Once you've found a project that catches your interest, take some time to read through its contribution guidelines and setup instructions. You can even join its communication channels to get a feel for the conversations happening within the community and see which areas the maintainers are currently focusing on.
 
