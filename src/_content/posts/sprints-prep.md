@@ -30,7 +30,7 @@ Sprints are also not limited to developers looking to contribute code, so there'
 
 You can also apply a similar outside-the-box approach if you're specifically looking to work on code. Project maintainers can sometimes be overwhelmed, so reviewing pull requests, testing new features, or creating tutorials are all valuable ways to contribute to a project.
 
-Come with a collaborative spirit, introduce yourself to other sprinters and project leads, and don't be afraid to ask questions. If you're attending on your own, it's perfectly acceptable to ask someone if they'd like to pair program with you. Django friends are the best friends!
+**Come with a collaborative spirit, introduce yourself to other sprinters and project leads, and don't be afraid to ask questions**. If you're attending on your own, it's perfectly acceptable to ask someone if they'd like to pair program with you. Django friends are the best friends!
 
 ## Look Up the Projects Before the Conference
 
