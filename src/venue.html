@@ -144,14 +144,20 @@ other_lodging:
       </p>
     </header>
 
-    <section>
-      <ul class="grid-1-2">
-        {% for place in collections.places %}
-          {% include "place.html" %}
-        {% endfor %}
-      </ul>
-    </section>
+    <div>
+      <section>
+        <ul class="grid-1-2">
+          {% for place in collections.places %}
+            {% include "place.html" %}
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
+  </div>
+</div>
 
+<div class="block-container">
+  <div class="wrapper">
     <header class="mb-12" id="accessibility">
       <h2 class="mb-6 site-h2">An Accessible Experience</h2>
       <div class="space-y-6 text-lg max-w-[60rem]">
