@@ -24,7 +24,7 @@ If you've never attended sprints before, or feel apprehensive about putting on y
 
 ## Understand What Sprints Are
 
-A common misconception about sprints is that it's every person for themselves, a showdown that only the strongest and most seasoned developers can endure! Fortunately, this couldn't be further from the truth. Sprints are not a competition; they're collaborative coding sessions where people of all skill levels are welcome.
+A common misconception about sprints is that it's every person for themselves, a showdown that only the strongest and most seasoned developers can endure! Fortunately, this couldn't be further from the truth. Sprints are not a competition; **they're collaborative coding sessions where people of all skill levels are welcome**.
 
 Sprints are also not limited to developers looking to contribute code, so there's no need to focus solely on understanding the codebase. Contributions can include improving documentation, spotting and correcting typos, or updating sections that have become outdated over time. This is especially true for projects that have been around for many years. Accessibility improvements are another area where contributors can make a meaningful impact, and these are the kinds of contributions the community is always happy to welcome.
 
