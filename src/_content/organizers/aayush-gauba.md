@@ -1,7 +1,7 @@
 ---
 name: Aayush Gauba
 photo: aayush-gauba.jpg
-role: Marketing Chair
+role: Marketing Chair, DEFNA Director
 social:
     twitter: 
     website: 
