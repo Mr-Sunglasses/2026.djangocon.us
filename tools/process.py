@@ -88,13 +88,13 @@ def generate_placeholders():
             start_time=constants.DAY_3_KEYNOTE_START,
             end_time=constants.DAY_3_KEYNOTE_END,
         ),
-        # panel
-        copy_organizer_and_create_schedule(
-            start_time=constants.PANEL_START,
-            end_time=constants.PANEL_END,
-            organizer_slug=constants.PANEL_ORGANIZER_SLUG,
-            title="Panel Discussion (details TBA)",
-        ),
+        # panel (if needed in 2027)
+        # copy_organizer_and_create_schedule(
+        #     start_time=constants.PANEL_START,
+        #     end_time=constants.PANEL_END,
+        #     organizer_slug=constants.PANEL_ORGANIZER_SLUG,
+        #     title="Panel Discussion (details TBA)",
+        # ),
     ]:
         filename = (
             REPO_ROOT
