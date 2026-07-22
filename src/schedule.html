@@ -62,33 +62,82 @@ days:
             {% endif %}
           </div>
 
-          <div class="mt-4 space-y-8">
+          {% assign date_key = day[0] | formatDateTime: 'yyyy-MM-dd' %}
+          {% assign open_spaces = collections.openSpacesByDate[date_key] %}
+
+          {% if open_spaces %}
             {% comment %}
-              Draw each time slot, e.g. 9:00 AM to 10:00 AM followed
+              Days with open spaces (Mon/Tue).
+
+              Desktop: a CSS grid where talks fill columns 1-2 and each open
+              space spans (grid-row start/end computed in lib/sessions.js) every
+              talk row it overlaps, forming one tall block beside those talks.
+
+              Mobile: talks stack, with each open space rendered inline right
+              after the slot it starts nearest to (grids can't span cleanly in a
+              single column).
             {% endcomment %}
-            {% for slot in day[1] %}
-              <div class="flex flex-wrap gap-4 lg:gap-8">
-                <div class="w-full md:w-48 sticky top-[120px] bg-white pb-2 z-10 lg:static lg:pt-6">
-                  <h3 class="w-full font-medium text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-12 lg:text-right">
+
+            <div class="hidden mt-4 lg:grid lg:gap-x-8 lg:gap-y-8" style="grid-template-columns: 12rem minmax(0, 1fr) 18rem;">
+              {% for slot in day[1] %}
+                {% assign grid_row = forloop.index %}
+                <div style="grid-column: 1; grid-row: {{ grid_row }};">
+                  <h3 class="font-medium text-right text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-12">
                     <time datetime="{{ slot.start }}">{{ slot.start | formatDateTime: "h:mm aaa" }}</time> to
                     <time datetime="{{ slot.end }}">{{ slot.end | formatDateTime: "h:mm aaa" }}</time>
                   </h3>
                 </div>
-                <ul
-                  class="flex flex-row flex-wrap flex-1 gap-4 rounded-md lg:p-4 lg:bg-gray-100">
-                  {% comment %}
-                    Ideally up to 4 tracks, with some sessions spanning every track
-                  {% endcomment %}
-
-                  {%- assign color_classes = "border-t-green,border-t-teal,border-t-cyan,border-t-orange" | split: "," %}
-                  {% for session in slot.sessions %}
-                    {%- assign color = color_classes[forloop.index0 | modulo: color_classes.size] %}
-                    {% include "session-card.html", session:session, color_class:color %}
-                  {% endfor %}
+                <ul class="flex flex-row flex-wrap gap-4 p-4 rounded-md bg-gray-100" style="grid-column: 2; grid-row: {{ grid_row }};">
+                  {% include "session-cards.html", slot:slot %}
                 </ul>
-              </div>
-            {% endfor %}
-          </div>
+              {% endfor %}
+
+              {% for space in open_spaces %}
+                <div class="flex p-4 rounded-md bg-gray-100" style="grid-column: 3; grid-row: {{ space.rowStart }} / {{ space.rowEnd }};">
+                  {% include "open-space-card.html", space:space %}
+                </div>
+              {% endfor %}
+            </div>
+
+            <div class="mt-4 space-y-8 lg:hidden">
+              {% for slot in day[1] %}
+                <div class="flex flex-wrap gap-4">
+                  <div class="w-full sticky top-[120px] bg-white pb-2 z-10">
+                    <h3 class="w-full font-medium text-gray-500">
+                      <time datetime="{{ slot.start }}">{{ slot.start | formatDateTime: "h:mm aaa" }}</time> to
+                      <time datetime="{{ slot.end }}">{{ slot.end | formatDateTime: "h:mm aaa" }}</time>
+                    </h3>
+                  </div>
+                  <ul class="flex flex-row flex-wrap flex-1 gap-4 rounded-md">
+                    {% include "session-cards.html", slot:slot %}
+                  </ul>
+                  {% for space in slot.openSpaces %}
+                    <div class="w-full">
+                      {% include "open-space-card.html", space:space %}
+                    </div>
+                  {% endfor %}
+                </div>
+              {% endfor %}
+            </div>
+
+          {% else %}
+            {% comment %} Days without open spaces: single-column time + talks. {% endcomment %}
+            <div class="mt-4 space-y-8">
+              {% for slot in day[1] %}
+                <div class="flex flex-wrap gap-4 lg:gap-8">
+                  <div class="w-full md:w-48 sticky top-[120px] bg-white pb-2 z-10 lg:static lg:pt-6">
+                    <h3 class="w-full font-medium text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-12 lg:text-right">
+                      <time datetime="{{ slot.start }}">{{ slot.start | formatDateTime: "h:mm aaa" }}</time> to
+                      <time datetime="{{ slot.end }}">{{ slot.end | formatDateTime: "h:mm aaa" }}</time>
+                    </h3>
+                  </div>
+                  <ul class="flex flex-row flex-wrap flex-1 gap-4 rounded-md lg:p-4 lg:bg-gray-100">
+                    {% include "session-cards.html", slot:slot %}
+                  </ul>
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
         </div>
       {% endfor %}
     </div>
