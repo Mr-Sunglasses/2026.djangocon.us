@@ -44,6 +44,12 @@ Getting involved with community discussions ahead of time will also give you ple
 
 One of the biggest time sinks during sprints is getting a project running for the first time. Rather than spending your first hour troubleshooting missing dependencies or waiting for packages to install, **try setting up your development environment before you arrive at the conference**.
 
+We are hosting three office hour style events where people can drop in and get help configuring their machine. If you're a first-time contributor, consider attending one of these. To participate, you will need to **[join Django's Discord server](https://chat.djangoproject.com)** and attend the event on the `#welcome` voice channel.
+
+- [August 9th, 7am US/Chicago, 12pm UTC](https://time.is/compare/0700_9_August_2026_Chicago)
+- [August 9th, 6pm US/Chicago, 11pm UTC](https://time.is/compare/1800_9_August_2026_Chicago)
+- [August 11th, 10:30am US/Chicago, 3:30pm UTC](https://time.is/compare/1030_11_August_2026_Chicago)
+
 Most projects have setup instructions in their documentation, so clone the repository, follow the installation steps, and make sure you can run the project locally. If you run into issues, don't panic; that's completely normal! You can ask questions in the project's communication channels before the conference or save them for the sprint itself. Having a head start means you'll be able to spend more time learning from maintainers, collaborating with other contributors, and making meaningful contributions instead of waiting for your environment to cooperate.
 
 ## Final Notes
