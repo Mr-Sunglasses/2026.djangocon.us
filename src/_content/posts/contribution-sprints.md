@@ -52,6 +52,14 @@ The "why" can vary. Maybe you don’t feel confident enough to contribute code (
 
 The "how" starts with identifying your strengths, then connecting with projects that might need them. Shauna’s video is a great starting point. Once you identify a project that interests you, reach out! Sometimes a project doesn’t realize what kind of help it needs until someone offers it.
 
+## Preparing for a Contribution Sprint
+
+We are hosting three office hour style events where people can drop in and get help configuring their machine. If you're a first-time contributor, consider attending one of these. To participate, you will need to **[join Django's Discord server](https://chat.djangoproject.com)** and attend the event on the `#welcome` voice channel.
+
+- [August 9th, 7am US/Chicago, 12pm UTC](https://time.is/compare/0700_9_August_2026_Chicago)
+- [August 9th, 6pm US/Chicago, 11pm UTC](https://time.is/compare/1800_9_August_2026_Chicago)
+- [August 11th, 10:30am US/Chicago, 3:30pm UTC](https://time.is/compare/1030_11_August_2026_Chicago)
+
 ## Preparing to Lead or Organize a Sprint
 
 If you’re a project maintainer or contributor, a bit of preparation can help make the most of the sprint and avoid burnout. Most open source maintainers are unpaid volunteers, we appreciate you.
