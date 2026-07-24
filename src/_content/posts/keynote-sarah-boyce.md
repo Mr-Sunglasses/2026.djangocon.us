@@ -5,7 +5,7 @@ published_datetime: 2026-07-20 06:00:00-05:00
 title: "Announcing Our Keynotes: Sarah Boyce"
 
 cover:
-    url: 
+    url: "/assets/img/blog/sarah-keynote.png"
     alt: "Announcing Sarah Boyce as a DjangoCon US 2026 keynote speaker"
 ---
 
