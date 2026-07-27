@@ -6,7 +6,7 @@ permalink: /presenters/sarah-boyce/
 photo: sarah-boyce.jpeg
 social:
     bluesky: null
-    github: null
+    github: https://github.com/sarahboyce
     instagram: null
     mastodon: https://mastodon.social/@sarahboyce
     twitter: null
