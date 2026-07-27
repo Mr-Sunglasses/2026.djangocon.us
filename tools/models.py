@@ -295,12 +295,12 @@ MANUAL_SCHEDULE_ENTRIES = [
     ManualScheduleEntry(
         start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
-            pydatetime.time(10, 20),
+            pydatetime.time(9, 45),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
-            pydatetime.time(10, 45),
+            pydatetime.time(10, 15),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",
@@ -350,12 +350,12 @@ MANUAL_SCHEDULE_ENTRIES = [
     ManualScheduleEntry(
         start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
-            pydatetime.time(15, 10),
+            pydatetime.time(15, 40),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
-            pydatetime.time(15, 35),
+            pydatetime.time(16, 5),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",
@@ -526,12 +526,12 @@ MANUAL_SCHEDULE_ENTRIES = [
     ManualScheduleEntry(
         start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
-            pydatetime.time(15, 10),
+            pydatetime.time(15, 40),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
-            pydatetime.time(15, 35),
+            pydatetime.time(16, 5),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",
@@ -684,12 +684,12 @@ MANUAL_SCHEDULE_ENTRIES = [
     ManualScheduleEntry(
         start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
-            pydatetime.time(15, 45),
+            pydatetime.time(15, 40),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
-            pydatetime.time(16, 15),
+            pydatetime.time(16, 5),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",

@@ -92,6 +92,11 @@ module.exports = (config) => {
   });
 
   config.addFilter("formatDateTime", function(date, formatStr) {
+    // Handle date-only strings (e.g., "2026-08-24") by adding noon time
+    // to avoid timezone day-boundary issues
+    if (typeof date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(date)) {
+      date = `${date}T12:00:00`;
+    }
     return format(new TZDate(date, timezone), formatStr);
   });
 

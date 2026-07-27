@@ -10,11 +10,11 @@ CONFERENCE_TZ = zoneinfo.ZoneInfo(SITE_JSON["timezone"])
 CONFERENCE_YEAR = SITE_JSON["conf_year"]
 
 # TUTORIAL_DAY = datetime.date(CONFERENCE_YEAR, 9, 1)
-TALK_DAY_1 = datetime.date(CONFERENCE_YEAR, 9, 8)
-TALK_DAY_2 = datetime.date(CONFERENCE_YEAR, 9, 9)
-TALK_DAY_3 = datetime.date(CONFERENCE_YEAR, 9, 10)
-SPRINTS_DAY_1 = datetime.date(CONFERENCE_YEAR, 9, 11)
-SPRINTS_DAY_2 = datetime.date(CONFERENCE_YEAR, 9, 12)
+TALK_DAY_1 = datetime.date(CONFERENCE_YEAR, 8, 24)
+TALK_DAY_2 = TALK_DAY_1 + datetime.timedelta(days=1)
+TALK_DAY_3 = TALK_DAY_2 + datetime.timedelta(days=1)
+SPRINTS_DAY_1 = TALK_DAY_3 + datetime.timedelta(days=1)
+SPRINTS_DAY_2 = SPRINTS_DAY_1 + datetime.timedelta(days=1)
 
 LARGE_TALK_ROOM = "Sauganash Ballroom"
 SMALL_TALK_ROOM = "Wolf Point Ballroom"
@@ -37,8 +37,8 @@ LACTATION_BLOG_POST_LINK = None
 
 # TODO get organizer pages set up
 DAY_1_OPENING_REMARKS_ORGANIZER_SLUG = "keanya-phelps"
-DAY_2_OPENING_REMARKS_ORGANIZER_SLUG = None  # "jeanette-obrien"
-DAY_3_OPENING_REMARKS_ORGANIZER_SLUG = DAY_1_OPENING_REMARKS_ORGANIZER_SLUG
+DAY_2_OPENING_REMARKS_ORGANIZER_SLUG = "peter-grandstaff"
+DAY_3_OPENING_REMARKS_ORGANIZER_SLUG = "drew-winstel"
 CLOSING_REMARKS_ORGANIZER_SLUG = DAY_1_OPENING_REMARKS_ORGANIZER_SLUG
 PANEL_ORGANIZER_SLUG = "velda-kiara"
 
@@ -49,7 +49,7 @@ LUNCH_END_TIME = datetime.time(13, 45)
 
 ORIENTATION_ORGANIZER_SLUG = "kojo-idrissa"
 ORIENTATION_START = datetime.datetime.combine(
-    TALK_DAY_1, datetime.time(8, 30), tzinfo=CONFERENCE_TZ
+    TALK_DAY_1, datetime.time(8, 15), tzinfo=CONFERENCE_TZ
 )
 ORIENTATION_END = ORIENTATION_START + datetime.timedelta(minutes=30)
 
@@ -77,10 +77,10 @@ CLOSING_REMARKS_START = datetime.datetime.combine(
 )
 CLOSING_REMARKS_END = CLOSING_REMARKS_START + datetime.timedelta(minutes=20)
 
-PANEL_START = datetime.datetime.combine(
-    TALK_DAY_3, datetime.time(13, 55), tzinfo=CONFERENCE_TZ
-)
-PANEL_END = PANEL_START + datetime.timedelta(minutes=45)
+# PANEL_START = datetime.datetime.combine(
+#     TALK_DAY_3, datetime.time(13, 55), tzinfo=CONFERENCE_TZ
+# )
+# PANEL_END = PANEL_START + datetime.timedelta(minutes=45)
 
 # TODO once catering menus are live: update this with the blog post
 CATERING_MENU_LINK = None
