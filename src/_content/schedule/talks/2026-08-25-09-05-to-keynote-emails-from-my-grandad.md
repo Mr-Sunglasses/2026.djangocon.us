@@ -1,12 +1,12 @@
 ---
 category: talks
 difficulty: All
-end_datetime: 2026-08-25 10:00:00-05:00
+end_datetime: 2026-08-25 09:50:00-05:00
 permalink: /talks/keynote-tuesday-emails-from-my-grandad/
 presenter_slugs:
   - sarah-boyce
 room: Sauganash Ballroom
-start_datetime: 2026-08-25 09:15:00-05:00
+start_datetime: 2026-08-25 09:05:00-05:00
 title: "Keynote: Emails from my Grandad"
 track: t0
 ---

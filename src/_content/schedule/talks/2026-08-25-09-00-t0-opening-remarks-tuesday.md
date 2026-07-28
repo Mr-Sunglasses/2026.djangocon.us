@@ -1,7 +1,7 @@
 ---
 category: talks
 difficulty: All
-end_datetime: 2026-08-25 09:15:00-05:00
+end_datetime: 2026-08-25 09:05:00-05:00
 permalink: /talks/opening-remarks-tuesday/
 presenter_slugs:
 - peter-grandstaff
