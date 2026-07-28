@@ -1,0 +1,24 @@
+---
+company: Six Feet Up
+hidden: false
+name: Chrissy Wainwright
+permalink: /presenters/chrissy-wainwright/
+photo: chrissy-wainwright.webp
+social:
+    bluesky: null
+    github: null
+    instagram: null
+    mastodon: null
+    twitter: null
+    website: https://sixfeetup.com/
+---
+
+Chrissy Wainwright is a Senior Software Developer and Quality Assurance Lead at Six Feet Up, a custom software development agency that specializes in solving hard problems.
+
+At Six Feet Up, Chrissy combines 18 years of Python expertise with a sharp eye for quality, ensuring that the solutions her team delivers are not only technically sound but precisely aligned with client needs.
+
+Her technical foundation spans CSS, JavaScript, Python, Django, Zope, and Plone, with deep experience customizing and optimizing open-source systems for real-world applications. More recently, Chrissy has expanded her focus into Quality Assurance, championing development standards and workflow best practices across the Six Feet Up team.
+
+Chrissy is a recognized leader in the Python and Plone communities. She has served as President of the Plone Foundation, has delivered talks and training sessions at conferences, and has played a key role in organizing her local Python meetup. She joined Six Feet Up in 2008 and has been a driving force in the company's growth and technical culture ever since.
+
+When she's not shipping code or reviewing PRs, you'll likely find Chrissy climbing, playing ice hockey, shooting photography, or exploring the outdoors.

@@ -19,11 +19,12 @@ templateClass: homepage
 
       <div class="p-5">
         <div class="justify-center p-2 button-group">
-          <a class="button button-lg bg-white" href="{{ site.mailing_list }}">Join Mailing List</a>
+          <a class="button button-lg bg-white" href="/schedule/">Talk Schedule</a>
           <a class="button button-lg bg-white" href="{{ site.hotel_reservation_link }}">Book a Hotel Room</a>
         </div>
         <div class="justify-center p-2 button-group">
           <a class="button button-lg bg-primary" href="{{ site.ticket_link }}">Buy Tickets</a>
+          <a class="button button-lg bg-white" href="{{ site.mailing_list }}">Join Mailing List</a>
         </div>
       </div>
     </section>
@@ -54,12 +55,20 @@ templateClass: homepage
         </section>
 
         <ul class="items-center self-end gap-6 py-4 text-left lg:gap-0 md:flex lg:flex-col lg:items-start">
-        <li>
+          <li>
+            {%
+              include 'date-card.html',
+              month:"Aug",
+              days:"9, 11",
+              heading:'<a href="/news/contribution-sprints/#preparing-for-a-contribution-sprint">Sprint office hours: Get help getting set up</a>'
+            %}
+          </li>
+          <li>
             {%
               include 'date-card.html',
               month:"Aug",
               days:"24-26",
-              heading:"Talks: Dozens of talks chosen by the community"
+              heading:'<a href="/schedule/">Talks: Dozens of talks chosen by the community</a>'
             %}
           </li>
           <li>
@@ -67,7 +76,7 @@ templateClass: homepage
               include 'date-card.html',
               month:"Aug",
               days:"27-28",
-              heading:"<a href='/sprints/'>Sprints: Team up to work on Django!</a>"
+              heading:'<a href="/sprints/">Sprints: Team up to work on Django!</a>'
             %}
           </li>
         </ul>
