@@ -1,11 +1,11 @@
 ---
 category: talks
-end_datetime: 2026-08-25 18:25:00-05:00
+end_datetime: 2026-08-24 16:35:00-05:00
 permalink: /talks/teach-django-tasks-to-speak-celery-building-a-celery-backend-for-django-tasks/
 presenter_slugs:
 - matias-bordese
 room: Sauganash Ballroom
-start_datetime: 2026-08-25 18:00:00-05:00
+start_datetime: 2026-08-24 16:10:00-05:00
 tags:
 - Architecture
 - IPC

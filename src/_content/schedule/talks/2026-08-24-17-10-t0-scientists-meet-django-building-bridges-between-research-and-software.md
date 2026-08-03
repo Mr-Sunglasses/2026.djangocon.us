@@ -1,11 +1,11 @@
 ---
 category: talks
-end_datetime: 2026-08-24 17:55:00-05:00
+end_datetime: 2026-08-24 17:35:00-05:00
 permalink: /talks/scientists-meet-django-building-bridges-between-research-and-software/
 presenter_slugs:
 - barkha-jain
 room: Sauganash Ballroom
-start_datetime: 2026-08-24 17:30:00-05:00
+start_datetime: 2026-08-24 17:10:00-05:00
 tags:
 - Integrating AI in production
 - Overview
