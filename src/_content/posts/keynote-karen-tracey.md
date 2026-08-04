@@ -11,7 +11,7 @@ cover:
 
 ### We're honored to announce Karen Tracey as a keynote speaker for DjangoCon US 2026
 
-We had the opportunity to sit down with Sarah and ask her a few questions about her work, her journey through the Django community, and what attendees can expect from her keynote at DjangoCon US 2026.
+We had the opportunity to sit down with Karen and ask her a few questions about her work, her journey through the Django community, and what attendees can expect from her keynote at DjangoCon US 2026.
 
 ## Can you give attendees a short teaser about what they can expect from the keynote?
 
