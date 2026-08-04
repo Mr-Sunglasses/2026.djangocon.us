@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Marketing Team
 category: General
-published_datetime: 2026-07-27 16:00:00
+published_datetime: 2026-08-04 16:00:00
 title: "Announcing Our Keynotes: Karen Tracey"
 
 cover:
