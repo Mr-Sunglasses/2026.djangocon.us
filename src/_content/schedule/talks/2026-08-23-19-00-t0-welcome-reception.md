@@ -10,3 +10,8 @@ track: t0
 ---
 
 Join us in the 15th floor lobby for some conversation and light refreshments! Meet some new friends and say hi to some old ones.
+
+Sponsored by:
+- [Revsys](https://www.revsys.com/)
+- [Two Rock Software](https://tworock.io/)
+- [Caktus Group](https://www.caktusgroup.com/)
