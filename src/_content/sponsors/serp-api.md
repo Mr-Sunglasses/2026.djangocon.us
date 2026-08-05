@@ -1,0 +1,14 @@
+---
+level: Gold
+name: SerpApi
+date: 2026-08-05
+logo:
+    filename: serpapi-logo.svg
+    orientation: landscape
+
+url:
+    target: 'https://serpapi.com/'
+    label: serpapi.com
+hiring_url: https://serpapi.com/careers
+---
+SerpApi is a Web Search API that gives developers real-time, structured access to search engine results. Founded in 2017, the company enables developers, researchers, Fortune 500 companies, and organizations around the world to integrate live search insights from sources like Google Search, Maps, and YouTube into applications, analytics, and research workflows. With more than 100 specialized APIs, SerpApi supports use cases ranging from AI development and machine learning to SEO monitoring, cybersecurity intelligence, and e-commerce analysis.
