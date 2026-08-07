@@ -561,12 +561,12 @@ MANUAL_SCHEDULE_ENTRIES = [
     ManualScheduleEntry(
         start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
-            pydatetime.time(10, 20),
+            pydatetime.time(9, 50),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
-            pydatetime.time(10, 45),
+            pydatetime.time(10, 15),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",
@@ -773,12 +773,12 @@ MANUAL_SCHEDULE_ENTRIES = [
     ManualScheduleEntry(
         start_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
-            pydatetime.time(10, 20),
+            pydatetime.time(9,50),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
-            pydatetime.time(10, 45),
+            pydatetime.time(10, 15),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",
@@ -842,40 +842,43 @@ MANUAL_SCHEDULE_ENTRIES = [
         title="Break",
         track="t0",
     ),
-    # Thursday!
-    ManualScheduleEntry(
-        start_datetime=pydatetime.datetime.combine(
-            constants.SPRINTS_DAY_1,
-            pydatetime.time(9),
-            tzinfo=constants.CONFERENCE_TZ,
-        ),
-        end_datetime=pydatetime.datetime.combine(
-            constants.SPRINTS_DAY_1,
-            pydatetime.time(17),
-            tzinfo=constants.CONFERENCE_TZ,
-        ),
-        group="talks",
-        permalink=None,
-        room=constants.SPRINTS_ROOM,
-        title="Contribution Sprints",
-        track="t0",
-    ),
-    # Friday!
-    ManualScheduleEntry(
-        start_datetime=pydatetime.datetime.combine(
-            constants.SPRINTS_DAY_2,
-            pydatetime.time(9),
-            tzinfo=constants.CONFERENCE_TZ,
-        ),
-        end_datetime=pydatetime.datetime.combine(
-            constants.SPRINTS_DAY_2,
-            pydatetime.time(17),
-            tzinfo=constants.CONFERENCE_TZ,
-        ),
-        group="talks",
-        permalink=None,
-        room=constants.SPRINTS_ROOM,
-        title="Contribution Sprints",
-        track="t0",
-    ),
+    # Commented out because we have specific events
+    # in _content/schedule/sprints instead.
+    #
+    # # Thursday!
+    # ManualScheduleEntry(
+    #     start_datetime=pydatetime.datetime.combine(
+    #         constants.SPRINTS_DAY_1,
+    #         pydatetime.time(9),
+    #         tzinfo=constants.CONFERENCE_TZ,
+    #     ),
+    #     end_datetime=pydatetime.datetime.combine(
+    #         constants.SPRINTS_DAY_1,
+    #         pydatetime.time(17),
+    #         tzinfo=constants.CONFERENCE_TZ,
+    #     ),
+    #     group="talks",
+    #     permalink=None,
+    #     room=constants.SPRINTS_ROOM,
+    #     title="Contribution Sprints",
+    #     track="t0",
+    # ),
+    # # Friday!
+    # ManualScheduleEntry(
+    #     start_datetime=pydatetime.datetime.combine(
+    #         constants.SPRINTS_DAY_2,
+    #         pydatetime.time(9),
+    #         tzinfo=constants.CONFERENCE_TZ,
+    #     ),
+    #     end_datetime=pydatetime.datetime.combine(
+    #         constants.SPRINTS_DAY_2,
+    #         pydatetime.time(17),
+    #         tzinfo=constants.CONFERENCE_TZ,
+    #     ),
+    #     group="talks",
+    #     permalink=None,
+    #     room=constants.SPRINTS_ROOM,
+    #     title="Contribution Sprints",
+    #     track="t0",
+    # ),
 ]

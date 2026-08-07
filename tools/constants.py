@@ -61,14 +61,14 @@ DAY_1_KEYNOTE_END = DAY_1_KEYNOTE_START + datetime.timedelta(minutes=45)
 DAY_2_OPENING_REMARKS_START = datetime.datetime.combine(
     TALK_DAY_2, datetime.time(9), tzinfo=CONFERENCE_TZ
 )
-DAY_2_OPENING_REMARKS_END = DAY_2_OPENING_REMARKS_START + datetime.timedelta(minutes=15)
+DAY_2_OPENING_REMARKS_END = DAY_2_OPENING_REMARKS_START + datetime.timedelta(minutes=5)
 DAY_2_KEYNOTE_START = DAY_2_OPENING_REMARKS_END
 DAY_2_KEYNOTE_END = DAY_2_KEYNOTE_START + datetime.timedelta(minutes=45)
 
 DAY_3_OPENING_REMARKS_START = datetime.datetime.combine(
     TALK_DAY_3, datetime.time(9), tzinfo=CONFERENCE_TZ
 )
-DAY_3_OPENING_REMARKS_END = DAY_3_OPENING_REMARKS_START + datetime.timedelta(minutes=15)
+DAY_3_OPENING_REMARKS_END = DAY_3_OPENING_REMARKS_START + datetime.timedelta(minutes=5)
 DAY_3_KEYNOTE_START = DAY_3_OPENING_REMARKS_END
 DAY_3_KEYNOTE_END = DAY_3_KEYNOTE_START + datetime.timedelta(minutes=45)
 

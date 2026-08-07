@@ -1,11 +1,11 @@
 ---
 category: talks
-end_datetime: 2026-08-24 17:25:00-05:00
+end_datetime: 2026-08-24 17:05:00-05:00
 permalink: /talks/agents-all-the-way-down-how-ai-coding-agents-changed-how-i-write-django/
 presenter_slugs:
 - josh-thomas
 room: Sauganash Ballroom
-start_datetime: 2026-08-24 17:00:00-05:00
+start_datetime: 2026-08-24 16:40:00-05:00
 tags:
 - use case
 - Architecture
