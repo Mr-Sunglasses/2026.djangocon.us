@@ -93,7 +93,11 @@ days:
               {% endfor %}
 
               {% for space in open_spaces %}
-                <div class="flex p-4 rounded-md bg-gray-100" style="grid-column: 3; grid-row: {{ space.rowStart }} / {{ space.rowEnd }};">
+                <div class="flex flex-col gap-4 p-4 rounded-md bg-gray-100" style="grid-column: 3; grid-row: {{ space.rowStart }} / {{ space.rowEnd }};">
+                  <h3 class="font-medium text-gray-500 lg:text-lg">
+                    <time datetime="{{ space.start }}">{{ space.start | formatDateTime: "h:mm aaa" }}</time> to
+                    <time datetime="{{ space.end }}">{{ space.end | formatDateTime: "h:mm aaa" }}</time>
+                  </h3>
                   {% include "open-space-card.html", space:space %}
                 </div>
               {% endfor %}
@@ -113,6 +117,10 @@ days:
                   </ul>
                   {% for space in slot.openSpaces %}
                     <div class="w-full">
+                      <h3 class="w-full pb-2 font-medium text-gray-500">
+                        <time datetime="{{ space.start }}">{{ space.start | formatDateTime: "h:mm aaa" }}</time> to
+                        <time datetime="{{ space.end }}">{{ space.end | formatDateTime: "h:mm aaa" }}</time>
+                      </h3>
                       {% include "open-space-card.html", space:space %}
                     </div>
                   {% endfor %}
