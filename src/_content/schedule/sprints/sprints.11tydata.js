@@ -1,5 +1,5 @@
 let data = {
-  layout: "session-details.html",
+  layout: "tutorial-details.html",
 };
 
 
