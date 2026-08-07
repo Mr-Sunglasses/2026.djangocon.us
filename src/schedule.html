@@ -94,9 +94,11 @@ days:
 
               {% for space in open_spaces %}
                 <div class="flex flex-col" style="grid-column: 3; grid-row: {{ space.rowStart }} / {{ space.rowEnd }};">
-                  <h3 class="font-medium text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-12">
-                    <time datetime="{{ space.start }}">{{ space.start | formatDateTime: "h:mm aaa" }}</time> to
-                    <time datetime="{{ space.end }}">{{ space.end | formatDateTime: "h:mm aaa" }}</time>
+                  <h3 class="font-medium text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-12 lg:z-10">
+                    <span class="px-1 rounded-md bg-white">
+                      <time datetime="{{ space.start }}">{{ space.start | formatDateTime: "h:mm aaa" }}</time> to
+                      <time datetime="{{ space.end }}">{{ space.end | formatDateTime: "h:mm aaa" }}</time>
+                    </span>
                   </h3>
                   <div class="flex flex-1 p-4 rounded-md bg-gray-100">
                     {% include "open-space-card.html", space:space %}
