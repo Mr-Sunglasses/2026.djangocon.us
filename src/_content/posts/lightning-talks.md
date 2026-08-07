@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Marketing Team
 category: General
-published_datetime: 2026-08-12 09:00:00-05:00
+published_datetime: 2026-08-07 09:00:00-05:00
 
 cover:
     url: "/assets/img/blog/keanya-talk-2025.jpg"
