@@ -73,9 +73,9 @@ days:
               space spans (grid-row start/end computed in lib/sessions.js) every
               talk row it overlaps, forming one tall block beside those talks.
 
-              Mobile: talks stack, with each open space rendered inline right
-              after the slot it starts nearest to (grids can't span cleanly in a
-              single column).
+              Mobile: one column in true chronological order — talk slots and
+              open spaces interleaved as peers, from collections.scheduleRowsByDate
+              (grids can't span cleanly in a single column, so no columns here).
             {% endcomment %}
 
             <div class="hidden mt-4 lg:grid lg:gap-x-8 lg:gap-y-8" style="grid-template-columns: 12rem minmax(0, 1fr) 18rem;">
@@ -108,28 +108,23 @@ days:
             </div>
 
             <div class="mt-4 space-y-8 lg:hidden">
-              {% for slot in day[1] %}
+              {% for row in collections.scheduleRowsByDate[date_key] %}
                 <div class="flex flex-wrap gap-4">
                   <div class="w-full sticky top-[120px] bg-white pb-2 z-10">
                     <h3 class="w-full font-medium text-gray-500">
-                      <time datetime="{{ slot.start }}">{{ slot.start | formatDateTime: "h:mm aaa" }}</time> to
-                      <time datetime="{{ slot.end }}">{{ slot.end | formatDateTime: "h:mm aaa" }}</time>
+                      <time datetime="{{ row.start }}">{{ row.start | formatDateTime: "h:mm aaa" }}</time> to
+                      <time datetime="{{ row.end }}">{{ row.end | formatDateTime: "h:mm aaa" }}</time>
                     </h3>
                   </div>
-                  <ul class="flex flex-row flex-wrap flex-1 gap-4 rounded-md">
-                    {% include "session-cards.html", slot:slot %}
-                  </ul>
-                  {% for space in slot.openSpaces %}
-                    <div class="w-full sticky top-[120px] bg-white pb-2 z-10">
-                      <h3 class="w-full font-medium text-gray-500">
-                        <time datetime="{{ space.start }}">{{ space.start | formatDateTime: "h:mm aaa" }}</time> to
-                        <time datetime="{{ space.end }}">{{ space.end | formatDateTime: "h:mm aaa" }}</time>
-                      </h3>
-                    </div>
+                  {% if row.type == "space" %}
                     <div class="w-full">
-                      {% include "open-space-card.html", space:space %}
+                      {% include "open-space-card.html", space:row.space %}
                     </div>
-                  {% endfor %}
+                  {% else %}
+                    <ul class="flex flex-row flex-wrap flex-1 gap-4 rounded-md">
+                      {% include "session-cards.html", slot:row.slot %}
+                    </ul>
+                  {% endif %}
                 </div>
               {% endfor %}
             </div>
