@@ -93,12 +93,14 @@ days:
               {% endfor %}
 
               {% for space in open_spaces %}
-                <div class="flex flex-col gap-4 p-4 rounded-md bg-gray-100" style="grid-column: 3; grid-row: {{ space.rowStart }} / {{ space.rowEnd }};">
-                  <h3 class="font-medium text-gray-500 lg:text-lg">
+                <div class="flex flex-col" style="grid-column: 3; grid-row: {{ space.rowStart }} / {{ space.rowEnd }};">
+                  <h3 class="font-medium text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-12">
                     <time datetime="{{ space.start }}">{{ space.start | formatDateTime: "h:mm aaa" }}</time> to
                     <time datetime="{{ space.end }}">{{ space.end | formatDateTime: "h:mm aaa" }}</time>
                   </h3>
-                  {% include "open-space-card.html", space:space %}
+                  <div class="flex flex-1 p-4 rounded-md bg-gray-100">
+                    {% include "open-space-card.html", space:space %}
+                  </div>
                 </div>
               {% endfor %}
             </div>
@@ -116,11 +118,13 @@ days:
                     {% include "session-cards.html", slot:slot %}
                   </ul>
                   {% for space in slot.openSpaces %}
-                    <div class="w-full">
-                      <h3 class="w-full pb-2 font-medium text-gray-500">
+                    <div class="w-full sticky top-[120px] bg-white pb-2 z-10">
+                      <h3 class="w-full font-medium text-gray-500">
                         <time datetime="{{ space.start }}">{{ space.start | formatDateTime: "h:mm aaa" }}</time> to
                         <time datetime="{{ space.end }}">{{ space.end | formatDateTime: "h:mm aaa" }}</time>
                       </h3>
+                    </div>
+                    <div class="w-full">
                       {% include "open-space-card.html", space:space %}
                     </div>
                   {% endfor %}
