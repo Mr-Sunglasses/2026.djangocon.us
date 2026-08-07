@@ -2,13 +2,12 @@
 author: DjangoCon US Marketing Team
 category: General
 published_datetime: 2026-08-07 09:00:00-05:00
+title: "Thinking About Giving a Lightning Talk?"
 
 cover:
     url: "/assets/img/blog/keanya-talk-2025.jpg"
     alt: "Keanya giving a talk at DCUS 2025"
 ---
-
-# Thinking About Giving a Lightning Talk?
 
 One of the most exciting traditions at DjangoCon US is our **Lightning Talks** (or, as we like to call them, **⚡ Talks**).
 
