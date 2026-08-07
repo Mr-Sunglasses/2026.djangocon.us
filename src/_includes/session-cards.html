@@ -1,0 +1,9 @@
+{% comment %}
+  Renders the talk/session cards for a single slot. Expects `slot` in scope.
+  Ideally up to 4 tracks, with some sessions spanning every track.
+{% endcomment %}
+{%- assign color_classes = "border-t-green,border-t-teal,border-t-cyan,border-t-orange" | split: "," %}
+{% for session in slot.sessions %}
+  {%- assign color = color_classes[forloop.index0 | modulo: color_classes.size] %}
+  {% include "session-card.html", session:session, color_class:color %}
+{% endfor %}
