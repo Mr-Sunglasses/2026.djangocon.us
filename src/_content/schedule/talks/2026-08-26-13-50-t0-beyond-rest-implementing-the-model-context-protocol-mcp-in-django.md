@@ -1,11 +1,11 @@
 ---
 category: talks
-end_datetime: 2026-08-26 17:45:00-05:00
+end_datetime: 2026-08-26 14:35:00-05:00
 permalink: /talks/beyond-rest-implementing-the-model-context-protocol-mcp-in-django/
 presenter_slugs:
 - kumar-shivendu
 room: Sauganash Ballroom
-start_datetime: 2026-08-26 17:00:00-05:00
+start_datetime: 2026-08-26 13:50:00-05:00
 tags:
 - Integrating AI in production
 title: 'Beyond REST: Implementing the Model Context Protocol (MCP) in Django'
@@ -14,7 +14,7 @@ track: t0
 
 Django has long been the "batteries-included" framework for building user-facing web apps. But in upcoming times, the primary "user" of your backend might be an AI agent taking actions on behalf of your users.
 
-This session provides a technical blueprint for implementing an MCP server within a Django project. 
+This session provides a technical blueprint for implementing an MCP server within a Django project.
 
 Key areas we will cover:
 
