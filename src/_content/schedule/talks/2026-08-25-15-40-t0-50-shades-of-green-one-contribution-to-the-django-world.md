@@ -1,11 +1,11 @@
 ---
 category: talks
-end_datetime: 2026-08-25 16:55:00-05:00
+end_datetime: 2026-08-25 16:25:00-05:00
 permalink: /talks/50-shades-of-green-one-contribution-to-the-django-world/
 presenter_slugs:
 - sarah-abderemane
 room: Sauganash Ballroom
-start_datetime: 2026-08-25 16:10:00-05:00
+start_datetime: 2026-08-25 15:40:00-05:00
 tags:
 - UI/UX
 - community

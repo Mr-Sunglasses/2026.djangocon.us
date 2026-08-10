@@ -1,11 +1,11 @@
 ---
 category: talks
-end_datetime: 2026-08-25 17:55:00-05:00
+end_datetime: 2026-08-25 17:25:00-05:00
 permalink: /talks/keeping-pace-with-django-evolving-through-15-years-of-updates/
 presenter_slugs:
 - eduardo-felipe-castegnaro
 room: Sauganash Ballroom
-start_datetime: 2026-08-25 17:30:00-05:00
+start_datetime: 2026-08-25 17:00:00-05:00
 tags:
 - use case
 - Maintenance
