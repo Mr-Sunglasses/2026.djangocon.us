@@ -1,11 +1,11 @@
 ---
 category: talks
-end_datetime: 2026-08-26 16:25:00-05:00
+end_datetime: 2026-08-26 14:35:00-05:00
 permalink: /talks/wishlist-granted-htmx-without-betraying-your-django-views/
 presenter_slugs:
 - natalia
 room: Sauganash Ballroom
-start_datetime: 2026-08-26 15:40:00-05:00
+start_datetime: 2026-08-26 13:50:00-05:00
 tags:
 - HTMX
 - UI/UX
