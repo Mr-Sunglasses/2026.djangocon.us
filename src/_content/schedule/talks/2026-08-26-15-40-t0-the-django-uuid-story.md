@@ -1,11 +1,11 @@
 ---
 category: talks
-end_datetime: 2026-08-26 16:55:00-05:00
+end_datetime: 2026-08-26 16:05:00-05:00
 permalink: /talks/the-django-uuid-story/
 presenter_slugs:
 - paolo-melchiorre
 room: Sauganash Ballroom
-start_datetime: 2026-08-26 16:30:00-05:00
+start_datetime: 2026-08-26 15:40:00-05:00
 tags:
 - Databases
 title: The Django UUID Story

@@ -1,11 +1,11 @@
 ---
 category: talks
-end_datetime: 2026-08-26 17:25:00-05:00
+end_datetime: 2026-08-26 16:35:00-05:00
 permalink: /talks/but-did-you-know-the-browser-already-does-that/
 presenter_slugs:
 - james-stuckey-weber
 room: Sauganash Ballroom
-start_datetime: 2026-08-26 17:00:00-05:00
+start_datetime: 2026-08-26 16:10:00-05:00
 tags:
 - Testing
 - UI/UX
