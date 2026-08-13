@@ -1,5 +1,5 @@
 ---
-author: DjangoCon US Communications Team
+author: DjangoCon US Marketing Team
 category: General
 published_datetime: 2026-08-13 12:00:00-05:00
 layout: post
