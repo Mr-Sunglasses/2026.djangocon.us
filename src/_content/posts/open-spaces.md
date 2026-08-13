@@ -18,15 +18,11 @@ This year we moved to a [single track](/news/single-track/), and that gives us t
 
 ## What Is an Open Space?
 
-An Open Space is a discussion that doesn't exist until an attendee puts it on the board. 
-
-The topics can range as widely as you like. Technical debugging and brainstorming. Career guidance. Building interpersonal and soft skills. Sharing a hobby or an interest that has nothing to do with Django.
-
-All of it is welcome at Open Spaces!
+An Open Space is a patricipant-driven discussion where the topic and agenda is set by whoever shows up, as opposed to being planned in advance. It is intended to be more interactive and participatory than a regular presentation. The topics can range as widely as you'd like!
 
 ## When and Where
 
-Open Spaces run on **Monday, August 24** and **Tuesday, August 25** in the **Wolf Point Ballroom** (15th floor), during these hours:
+Open Spaces will run on **Monday, August 24** and **Tuesday, August 25** in the **Wolf Point Ballroom** (15th floor), during these hours:
 
 - 11:00am
 - 2:00pm
@@ -51,12 +47,13 @@ The main stage is one shared experience for everyone, and Open Spaces are where 
 
 ## Some Ideas to Get You Started 💡
 
-- Career conversations: what's next, and how to get there
-- Practice interview questions with each other
+- Career conversations: sharing career journeys, exploring what's next, and how to get there
+- Practice job interview questions with each other
 - Trade AI adoption strategies that are actually working
 - Discuss/vent (perhaps even kvetch a little?) about AI and the pace of technological change, and how it's changing our everyday work
 - Get feedback or a code review on a project idea
 - Run a workshop or talk that didn't make it to the main stage, and gather feedback on it
+- Do a code kata or other coding challenge together
 
 Or something else entirely. If you'd want to talk about it with other people, it belongs on the board!
 
