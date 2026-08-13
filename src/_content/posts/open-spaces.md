@@ -9,9 +9,9 @@ title: "Introducing Open Spaces! (And Why You Should Host One)"
 
 Some of the best parts of DjangoCon US have never been on the program but in the less structured part of the conference; the 'hallway track', a small group that forms around a table after a talk, or a conversation that wants to keep going after lunch.
 
-These topics range from technical debugging and brainstorming, to career guidance, building interpersonal soft skills, or sharing hobbies and interests.
+These topics include technical debugging, brainstorming, career guidance, building interpersonal skills, sharing hobbies and interests, and more.
 
-This year we moved to a [single track](/news/single-track/), and that gives us room to make space to support those conversations directly. With that in mind, we're introducing **Open Spaces** to DjangoCon!
+This year we moved to a [single track](/news/single-track/), and that gives us the space to support those conversations directly. With that in mind, we're introducing **Open Spaces** to DjangoCon!
 
 
 <!-- excerpt -->
@@ -26,7 +26,7 @@ All of it is welcome at Open Spaces!
 
 ## When and Where
 
-Open Spaces run on **Monday, August 24** and **Tuesday, August 25** in the **Wolf Point Ballroom**, during these hours:
+Open Spaces run on **Monday, August 24** and **Tuesday, August 25** in the **Wolf Point Ballroom** (15th floor), during these hours:
 
 - 11:00am
 - 2:00pm
@@ -54,7 +54,7 @@ The main stage is one shared experience for everyone, and Open Spaces are where 
 - Career conversations: what's next, and how to get there
 - Practice interview questions with each other
 - Trade AI adoption strategies that are actually working
-- Discuss/vent (perhaps even kvetch a little?) about AI and the pace of technological change, and how its changing our everyday work
+- Discuss/vent (perhaps even kvetch a little?) about AI and the pace of technological change, and how it's changing our everyday work
 - Get feedback or a code review on a project idea
 - Run a workshop or talk that didn't make it to the main stage, and gather feedback on it
 
