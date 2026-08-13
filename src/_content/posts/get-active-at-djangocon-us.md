@@ -13,7 +13,7 @@ title: Get Active at DjangoCon US 2026
 
 Having talks means a lot of time spent not moving while watching talks. It's important to take care of your body as well as your mind, and a good way to do that is to get moving.
 
-If you would like a little social motivation (or an excuse to share your accomplishments), we've created a [Strava group](https://www.strava.com/clubs/dcus-2029) as we had in 2021-25. It's a different group from the last few years, so you'll have to join again even if you joined in previous years.
+If you would like a little social motivation (or an excuse to share your accomplishments), we've created a [Strava group](https://www.strava.com/clubs/dcus-2026) as we had in 2021-25. It's a different group from the last few years, so you'll have to join again even if you joined in previous years.
 
 Once we send invitations to attendees to join the conference Slack instance (invitations will be sent out to ticket holders by Sunday, August 23), join the `#outings` channel if you'd like to join or plan a group exercise.
 
