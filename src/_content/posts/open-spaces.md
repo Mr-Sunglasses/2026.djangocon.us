@@ -2,7 +2,7 @@
 author: Eric Sherman
 hidden: false
 category: General
-published_datetime: 2026-08-13 09:00:00-05:00
+published_datetime: 2026-08-14 09:00:00-05:00
 layout: post
 title: "Introducing Open Spaces! (And Why You Should Host One)"
 ---
