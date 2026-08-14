@@ -18,4 +18,4 @@ Don't miss your chance to save. Early bird ticket sales for DjangoCon US 2026 ar
 
 DjangoCon US is where the Django community comes together, from maintainers and contributors to teams running production apps and newcomers. Expect community-selected talks, Django contribution sprints, and a welcoming space for everyone.
 
-Join us for five days of inspiration and learning at the Voco Chicago Downtown.
+Join us for five days of inspiration and learning at the voco Chicago Downtown.

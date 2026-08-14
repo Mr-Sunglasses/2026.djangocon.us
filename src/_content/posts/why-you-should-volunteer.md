@@ -12,7 +12,7 @@ title: "Why You Should Volunteer at DjangoCon US 2026"
 
 Every year, DjangoCon US comes together because a group of people shows up early, stays late, and does the behind-the-scenes work that keeps everything running. Things like printing badges, timing rooms, setting up speaker support, and making sure speakers feel welcomed right before they step on stage don’t just happen automatically, volunteers make them happen.
 
-This year, DjangoCon US is in Chicago from **August 24–28, 2026, at the Voco Chicago Downtown.** And this year, we’re trying something a little different: instead of splitting the event into multiple tracks, we’ll be running a single track throughout the conference. That means one room, one talk at a time, and everyone is part of the same shared experience.
+This year, DjangoCon US is in Chicago from **August 24–28, 2026, at the voco Chicago Downtown.** And this year, we’re trying something a little different: instead of splitting the event into multiple tracks, we’ll be running a single track throughout the conference. That means one room, one talk at a time, and everyone is part of the same shared experience.
 
 It’s a small change in how the schedule is structured, but it makes a big difference. Volunteer shifts won’t just impact one “section” of the community; you'll be supporting the entire event and everyone taking part in it.
 

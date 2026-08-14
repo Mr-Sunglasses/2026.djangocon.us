@@ -37,7 +37,7 @@ All ticket types, including One-Day, Corporate, Individual, and Online, are on o
 
 [ti.to/defna/djangocon-us-2026](https://ti.to/defna/djangocon-us-2026)
 
-DjangoCon US 2026 runs August 24th through 28th at the coco Chicago Downtown. Whether it's for a day, the whole week, or from your couch, we'll see you soon!
+DjangoCon US 2026 runs August 24th through 28th at the voco Chicago Downtown. Whether it's for a day, the whole week, or from your couch, we'll see you soon!
 
 ## Thanks, PyCon AU
 
