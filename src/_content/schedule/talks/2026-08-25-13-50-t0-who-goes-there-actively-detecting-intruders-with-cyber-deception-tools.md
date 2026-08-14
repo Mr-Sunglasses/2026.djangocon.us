@@ -1,6 +1,6 @@
 ---
 category: talks
-end_datetime: 2026-08-25 14:15:00-05:00
+end_datetime: 2026-08-25 14:35:00-05:00
 permalink: /talks/who-goes-there-actively-detecting-intruders-with-cyber-deception-tools/
 presenter_slugs:
 - dwayne-mcdaniel
@@ -21,6 +21,6 @@ Attendees will learn how honeytokens fit into a modern detection strategy, why t
 
 Takeaways:
 - Analysis of recent breaches for common attack behaviors
-- A history of cyber deception and the evolution of honeypots in defensive strategies. 
+- A history of cyber deception and the evolution of honeypots in defensive strategies.
 - Understanding how honeytokens work
 - Maximizing the impact of honeytokens
