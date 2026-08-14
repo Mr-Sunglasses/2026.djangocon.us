@@ -80,11 +80,11 @@ Tipping (gratuities) culture in the United States is rampant. Here's a rough ide
 
 ## Transportation, or Getting from the Airport to the Hotel
 
-There are 3 ways to get from the ORD airport to Voco Chicago Downtown:
+There are 3 ways to get from the ORD airport to voco Chicago Downtown:
 
 - Rideshare apps (Lyft and Uber generally have nationwide coverage; which you use is largely up to you) will generally get you where you need to go. It's about a $40-60 ride (plus tip) from the hotel to the airport in the absence of surge pricing. You'll pay using your phone. Use the app to find out where to get picked up. The ride should take about 30-50 minutes, depending on traffic, once you're in the car.
 - Traditional taxis may be hailed on the curb outside the airport. Follow signs for Ground Transportation and then look for the taxi stand. Fares will typically be a little more expensive ($50-70 perhaps plus tip), but licensing is stricter. Much like an Uber/Lyft, the trip should take about 30-50 minutes, depending on traffic.
-- The [CTA Blue Line train](https://www.transitchicago.com/blueline/) is a cost-effective and direct option. Fares are typically $5.00 from O'Hare to downtown. The trip itself takes approximately 45-60 minutes from the airport to the Clark/Lake station, which is a short walk from Voco Chicago Downtown. You can pay with a Ventra Card (which can be purchased at the airport CTA station) or a contactless credit/debit card. **NOTE:** The CTA Blue Line runs 24 hours a day, 7 days a week.
+- The [CTA Blue Line train](https://www.transitchicago.com/blueline/) is a cost-effective and direct option. Fares are typically $5.00 from O'Hare to downtown. The trip itself takes approximately 45-60 minutes from the airport to the Clark/Lake station, which is a short walk from voco Chicago Downtown. You can pay with a Ventra Card (which can be purchased at the airport CTA station) or a contactless credit/debit card. **NOTE:** The CTA Blue Line runs 24 hours a day, 7 days a week.
 
 ## Identification/Purchasing Alcohol
 
