@@ -4,12 +4,17 @@
   the card grows to span the full duration beside the concurrent talks. Times
   are rendered by the caller, outside the card, as they are for talk slots.
 {% endcomment %}
-<section class="flex flex-col flex-1 h-full p-4 bg-white border-2 border-gray-300 rounded border-t-4" aria-label="Open space">
+<section class="relative flex flex-col flex-1 h-full p-4 bg-white border-2 border-gray-300 rounded border-t-4 group" aria-label="Open space">
   <header class="space-y-4">
     {% if space.room %}
       <p class="text-sm">{{ space.room }}</p>
     {% endif %}
 
-    <h4 class="font-semibold leading-tight lg:text-lg">{{ space.title }}</h4>
+    <div class="space-y-1">
+      <h4 class="font-semibold leading-tight lg:text-lg">{{ space.title }}</h4>
+      <p class="text-sm">
+        <a href="/news/open-spaces/" class="no-underline cover group-hover:underline">What is an Open Space?</a>
+      </p>
+    </div>
   </header>
 </section>
