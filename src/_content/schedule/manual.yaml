@@ -136,6 +136,12 @@
   start_datetime: 2026-08-25 13:00:00-05:00
   title: Lunch
   track: t0
+- end_datetime: 2026-08-25 14:35:00-05:00
+  permalink: null
+  room: Sauganash Ballroom
+  start_datetime: 2026-08-25 13:50:00-05:00
+  title: To Be Announced
+  track: t0
 - end_datetime: 2026-08-25 15:00:00-05:00
   permalink: null
   room: Wolf Point Ballroom

@@ -1,6 +1,8 @@
 ---
 category: talks
+draft: true
 end_datetime: 2026-08-25 14:35:00-05:00
+hidden: true
 permalink: /talks/yes-we-allow-substitutions-no-we-don-t-serve-spaghetti/
 presenter_slugs:
 - jack-linke
